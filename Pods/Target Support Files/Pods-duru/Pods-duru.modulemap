@@ -1,0 +1,6 @@
+framework module Pods_duru {
+  umbrella header "Pods-duru-umbrella.h"
+
+  export *
+  module * { export * }
+}

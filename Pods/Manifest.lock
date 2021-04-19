@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.4.1)
+  - BottomSheet (1.0.6)
+  - Moya (15.0.0-alpha.1):
+    - Moya/Core (= 15.0.0-alpha.1)
+  - Moya/Core (15.0.0-alpha.1):
+    - Alamofire (~> 5.0)
+
+DEPENDENCIES:
+  - BottomSheet (from `https://github.com/weitieda/bottom-sheet.git`)
+  - Moya (= 15.0.0-alpha.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+
+EXTERNAL SOURCES:
+  BottomSheet:
+    :git: https://github.com/weitieda/bottom-sheet.git
+
+CHECKOUT OPTIONS:
+  BottomSheet:
+    :commit: 98e2ae0b47875faef28e181cf968b9645f7678af
+    :git: https://github.com/weitieda/bottom-sheet.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  BottomSheet: 0a164143e34470cc332db0ce4e55d6da202d7ac6
+  Moya: 101c94dfb29289736ecd20fa6e82bea665e0671b
+
+PODFILE CHECKSUM: 0b9008aa15fcd62c551fdc53b664cc3499bba4a7
+
+COCOAPODS: 1.10.1
