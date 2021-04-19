@@ -6,11 +6,15 @@
 //
 
 import SwiftUI
+import PartialSheet
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            ExpenditureDetail()
+        }
+        .navigationBarHidden(true)
     }
 }
 
